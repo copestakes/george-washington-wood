@@ -1,2 +1,1 @@
-# dreamvilla-landing-page
- Real estate landing page project
+# George Washington Wood B&B website

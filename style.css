@@ -259,6 +259,25 @@ header h2 {
 
 .testimonials h1 {
   text-align: center;
+  font-size: 3em;
+}
+
+.testimonials {
+  position: relative;
+}
+.testimonials::before {
+  content: '\201c';
+  position: absolute;
+  /* width: 150px;
+  height: 150px; */
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20em;
+  color: var(--gray-300);
+  top: 0;
+  left: 10px;
+  font-family: var(--heading);
+  z-index: -10;
 }
 
 .food {
@@ -408,7 +427,7 @@ footer a:hover {
 
 .carousel-cell {
   width: 100%;
-  height: 350px; /* height of carousel */
+  height: 500px; /* height of carousel */
   margin-right: 25px;
   /* background: var(--secondary-color); */
   color: var(--gray-900);
@@ -417,6 +436,10 @@ footer a:hover {
 
 .carousel-cell h2 {
   color: var(--gray-900);
+}
+
+.slidesetImg {
+  height: 100% !important;
 }
 
 @media screen and (min-width: 960px) {

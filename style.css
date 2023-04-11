@@ -66,8 +66,10 @@ img {
 
 .logo h4 {
   color: var(--gray-100);
-  font-size: .8;
+  font-size: 1.3em;
+
 }
+
 
 .nav-toggle {
   display: none;

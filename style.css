@@ -67,9 +67,7 @@ img {
 .logo h4 {
   color: var(--gray-100);
   font-size: 1.3em;
-
 }
-
 
 .nav-toggle {
   display: none;
@@ -108,7 +106,7 @@ nav ul {
   width: 50%;
   height: 100vh;
   left: -100%;
-  top: 58px;
+  top: 43px;
   padding: 1em;
   background: var(--secondary-color-dark-90);
   transition: all 0.5s;
@@ -267,6 +265,7 @@ header h2 {
 .testimonials {
   position: relative;
 }
+
 .testimonials::before {
   content: '\201c';
   position: absolute;

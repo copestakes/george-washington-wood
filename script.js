@@ -10,3 +10,7 @@ window.addEventListener('click', function () {
   var checkbox = document.querySelector('#check');
   checkbox.checked = !checkbox.checked;
 });
+
+const navbar = document.querySelector('.navigation');
+const navHeight = navbar.getBoundingClientRect().height;
+console.log(navHeight);

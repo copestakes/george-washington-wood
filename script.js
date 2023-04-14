@@ -7,7 +7,8 @@ window.onload = function () {
 };
 
 window.addEventListener('click', function () {
-  var checkbox = document.querySelector('#check');
+  let checkbox = document.querySelector('#check');
+  checkbox.checked;
   checkbox.checked = !checkbox.checked;
 });
 

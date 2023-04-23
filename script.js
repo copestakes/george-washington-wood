@@ -1,17 +1,35 @@
+const input = document.querySelector('#check');
+const nav = document.querySelector('nav ul');
+const anchors = document.querySelectorAll('a');
+
 function checkAll() {
-  const input = document.querySelector('#check');
   input.checked = false;
 }
 window.onload = function () {
   window.addEventListener('resize', checkAll, false);
+  nav.addEventListener('click', checkAll, false);
 };
 
-window.addEventListener('click', function () {
-  let checkbox = document.querySelector('#check');
-  checkbox.checked;
-  checkbox.checked = !checkbox.checked;
+anchors.forEach((e) => {
+  e.addEventListener('click', checkAll, false);
 });
 
-const navbar = document.querySelector('.navigation');
-const navHeight = navbar.getBoundingClientRect().height;
-console.log(navHeight);
+const backBtn = document.querySelector(".back-btn");
+
+window.onscroll = function() {
+  if (window.scrollY > 100) {
+    backBtn.style.display = "block";
+  } else {
+    backBtn.style.display = "none";
+  }
+};
+
+// window.addEventListener('click', function () {
+//   let checkbox = document.querySelector('#check');
+//   checkbox.checked;
+//   checkbox.checked = !checkbox.checked;
+// });
+
+// const navbar = document.querySelector('.navigation');
+// const navHeight = navbar.getBoundingClientRect().height;
+// console.log(navHeight);

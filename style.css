@@ -284,9 +284,10 @@ header h2 {
 
 .food {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: fit-content(40%);
   text-align: center;
+  width: 100%;
 }
 
 .food-content-large {
@@ -516,6 +517,7 @@ footer a:hover {
   }
 
   .food {
+    display: grid;
     grid-template-columns: 1fr 1fr 2fr;
   }
 

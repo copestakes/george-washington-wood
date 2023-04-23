@@ -224,7 +224,7 @@ header h2 {
 }
 
 .content {
-  padding: 2em 5em;
+  padding: 1.5em;
   border: 1px solid var(--gray-100);
   margin: 2em;
 }

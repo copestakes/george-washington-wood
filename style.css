@@ -423,6 +423,10 @@ footer a:hover {
   padding: 0.1em;
 }
 
+.flickity-viewport {
+  transition: height 0.2s;
+}
+
 .main-carousel {
   margin: 50px auto;
 }

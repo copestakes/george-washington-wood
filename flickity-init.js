@@ -4,6 +4,7 @@ var flkty = new Flickity(elem, {
   cellAlign: 'center',
   contain: true,
   wrapAround: true,
+  adaptiveHeight: true,
 });
 
 // element argument can be a selector string

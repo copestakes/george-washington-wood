@@ -284,7 +284,7 @@ header h2 {
 
 .food {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: fit-content(40%);
   text-align: center;
   width: 100%;
@@ -329,10 +329,11 @@ header h2 {
 
 .form-photo {
   /* flex: 1; */
-  background: #333;
-  background-image: url('images/house-with-keys.jpg');
-  background-size: cover;
+  background-image: url('images/bandbicon.svg');
   height: 400px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .form-content {
@@ -532,6 +533,7 @@ footer a:hover {
 
   .form-container {
     display: flex;
+    align-items: center;
   }
 
   .form-container > * {

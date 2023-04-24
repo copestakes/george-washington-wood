@@ -283,11 +283,10 @@ header h2 {
 }
 
 .food {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: fit-content(40%);
+  grid-template-rows: fit-content(40%); */
   text-align: center;
-  width: 100%;
 }
 
 .food-content-large {
@@ -449,6 +448,14 @@ footer a:hover {
 
 .slidesetImg {
   height: 100% !important;
+}
+
+@media screen and (min-width: 550px) {
+  .food {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: fit-content(40%);
+  }
 }
 
 @media screen and (min-width: 960px) {
